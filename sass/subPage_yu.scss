@@ -1,0 +1,329 @@
+.nav .logo {
+    width: 135px;
+    height: auto;
+}
+
+.nav .navbar_nav li {
+    width: 11%;
+}
+
+.nav .navbar_nav li a {
+    padding: 0;
+    text-align: center;
+}
+
+.nav .navbar_nav .no_dec {
+    margin-right: 10px;
+    height: 50px;
+    // width: auto;
+    img {
+        margin-top: 10px;
+    }
+}
+
+.header .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header .navbar_nav li.dropdown .dropdown_menu {
+    width: 100%;
+    left: 0;
+}
+
+.header .navbar_nav .no_dec:after {
+    content: '';
+    height: 0;
+}
+
+.ad {
+    margin-top: 50px;
+}
+
+.nav li a {
+    line-height: 50px;
+}
+
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav .navbar_nav li a {
+    color: #333;
+}
+
+body {
+    background: #fff;
+}
+
+.footer .container {
+    width: 1200px;
+    max-width: none;
+    padding: 0;
+}
+
+.footer .container .inl_block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer {
+    padding: 1rem 0;
+}
+
+.page {
+    padding: 3rem 1rem 0;
+}
+
+.page2 {
+    padding: 1rem 0;
+}
+
+.txt01 {
+    text-align: left;
+}
+
+.know_gu {
+    position: relative;
+}
+
+.know_gu:after {
+    content: '';
+    width: 160px;
+    height: 2px;
+    background-color: orange;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -80px;
+}
+
+.team_p {
+    margin-top: 32px;
+}
+
+.contain_join {
+    width: 1200px;
+    height: auto;
+    margin: 50px auto 0;
+    .mar_tit {
+        margin: 90px auto 150px;
+    }
+    .bg {
+        width: 1200px;
+        text-align: center;
+        height: auto;
+        .his_one,
+        .his_two,
+        .his_thr {
+            position: absolute;
+            bottom: 90px;
+            left: 20px;
+            border-left: 2px solid #ccc;
+            text-align: left;
+            ul {
+                padding-left: 5px;
+            }
+        }
+        .his_two {
+            bottom: 270px;
+            left: 430px;
+            .poi_p {
+                background: pink;
+            }
+        }
+        .his_thr {
+            bottom: 410px;
+            left: 800px;
+        }
+        .poi_p {
+            position: relative;
+            padding-left: 15px;
+            background: orange;
+            font-size: 30px;
+        }
+        .poi_p:after {
+            content: '';
+            position: absolute;
+            left: -6px;
+            bottom: 22px;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #999;
+        }
+    }
+    .classify {
+        margin: 20px auto;
+    }
+    .tab {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px auto 50px;
+        thead {
+            tr {
+                background-color: orange;
+                td {
+                    padding-left: 20px;
+                    width: 255px;
+                }
+            }
+        }
+        tbody {
+            tr {
+                td {
+                    padding-left: 20px;
+                    width: 255px;
+                }
+            }
+            tr:nth-child(even) {
+                background-color: #ccc;
+            }
+        }
+    }
+    .dis_li {
+        display: inline-block;
+        li {
+            padding: 0 45px;
+            position: relative;
+            display: inline-block;
+        }
+        li:hover {
+            cursor: pointer;
+        }
+        .active:after {
+            content: '';
+            width: 30%;
+            height: 2px;
+            background-color: orange;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            margin-left: -15%;
+        }
+    }
+}
+
+.bg_img_p {
+    width: 100%;
+    height: 350px;
+    margin-top: 50px;
+    background: url("../img/bg_partner.jpg") no-repeat center;
+}
+
+.bg_img_p_t {
+    width: 100%;
+    height: 162px;
+    background: url("../img/bg_img_p_t.jpg") no-repeat center;
+}
+
+.bg_img_c {
+    width: 100%;
+    height: 365px;
+    background: url("../img/bg_img_c.jpg") no-repeat center;
+}
+
+.contain_partner {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto 0;
+    .mar_tit {
+        margin: 20px auto 10px;
+    }
+    .str_coo {
+        display: flex;
+        display: -webkit-flex;
+        justify-content: center;
+        align-items: center;
+        .pp {
+            width: 300px;
+            margin: 0 5px;
+        }
+        h3 {
+            text-align: center;
+        }
+    }
+    .mar_pp {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .str_box {
+        width: 200px;
+        height: 350px;
+        margin: 0 20px;
+        img {
+            display: block;
+            width: 100%;
+        }
+        .borong {
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+    .ht {
+        height: 20px;
+        background-color: orange;
+    }
+}
+
+.contain_connect {
+    .mar_tit {
+        margin-top: 30px;
+    }
+    .str_coo {
+        display: flex;
+        display: -webkit-flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .str_box {
+        width: 400px;
+        height: 450px;
+        margin: 20px 20px 0;
+        img {
+            display: block;
+            width: 100%;
+        }
+        .borong {
+            width: 80%;
+            margin: 0 auto;
+        }
+        dl {
+            padding-left: 20px;
+            padding-right: 10px;
+            margin-top: 10px;
+            dt {
+                position: relative;
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+            dt:after {
+                content: '';
+                width: 106%;
+                height: 2px;
+                background-color: orange;
+                position: absolute;
+                left: -21px;
+                bottom: -10px;
+            }
+        }
+    }
+    .str_last {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width:1500px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media (min-width:1920px) {
+    .container {
+        width: 1500px;
+    }
+}
